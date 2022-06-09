@@ -1,0 +1,153 @@
+.container {
+  margin: -10px -10px;
+  padding: 0;
+  display: flex;
+}
+.col {
+  width: calc(50%-2px);
+
+  float: left;
+  margin: 0 auto;
+}
+
+#image {
+  width: 727.2px;
+  height: 817px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: flex;
+  position: relative;
+}
+#logo2 {
+  padding: 0.25rem;
+  color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 181px;
+  left: 181px;
+  width: 371px;
+  height: 371px;
+}
+
+.content {
+  background-color: #fff;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bird {
+  margin-top: 50px;
+  width: 55px;
+}
+h5 {
+  margin-left: 134px;
+  font: inherit;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+.col button {
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid rgb(211, 210, 210);
+  border-radius: 20px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.col button:hover {
+  background-color: darkgray;
+}
+
+#google-btn {
+  font-family: "Google Sans", arial, sans-serif;
+}
+
+#apple-btn {
+  font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
+}
+
+#google-txt {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font: 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+}
+
+span h1 {
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 64px;
+}
+
+span h2 {
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 31px;
+}
+
+.box2 .phone-btn {
+  background-color: rgb(29, 155, 240);
+  color: #fff;
+  font: inherit;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.box2 .phone-btn:hover {
+  background-color: rgb(19, 132, 202);
+}
+
+.box2 .login-btn {
+  color: rgb(29, 155, 240);
+}
+
+.box2 span {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: dimgray;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  color: dimgray;
+  margin-top: 14px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: dimgray;
+  padding: 10px;
+}
